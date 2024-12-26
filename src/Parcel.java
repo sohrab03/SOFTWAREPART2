@@ -5,6 +5,7 @@ public class Parcel {
     private double height;
     private double weight;
     private int daysInDepot;
+    private String status; // New field for parcel status
 
     public Parcel(String id, double length, double width, double height, double weight, int daysInDepot) {
         this.id = id;
@@ -13,6 +14,7 @@ public class Parcel {
         this.height = height;
         this.weight = weight;
         this.daysInDepot = daysInDepot;
+        this.status = "Waiting"; // Default status is "Waiting"
     }
 
     public String getId() {
@@ -39,7 +41,14 @@ public class Parcel {
         return daysInDepot;
     }
 
-    // Method to calculate the collection fee
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
     public double calculateFee() {
         double volume = length * width * height;
         double fee = volume * 0.5 + weight * 0.2; // Base fee
