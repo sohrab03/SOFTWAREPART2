@@ -1,39 +1,35 @@
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.List;
-import java.util.ArrayList;
 
 public class QueueOfCustomers {
     private Queue<Customer> customerQueue;
 
     public QueueOfCustomers() {
-        customerQueue = new LinkedList<>();
+        this.customerQueue = new LinkedList<>();
     }
 
-    // Adding Customers To the Queue
+    // Add a customer to the queue
     public void addCustomer(Customer customer) {
         customerQueue.add(customer);
     }
 
-    // remove and return customers to the queue
+    // Serve (remove and return) the next customer in the queue
     public Customer serveCustomer() {
-        return customerQueue.poll();
+        return customerQueue.poll(); // Removes the first customer
     }
 
-    // check what size the queue is
+    // Peek at the next customer in the queue without removing them
+    public Customer peekCustomer() {
+        return customerQueue.peek(); // Returns the first customer without removing
+    }
+
+    // Get the size of the queue
     public int getQueueSize() {
         return customerQueue.size();
     }
 
-    // print all the customers in the queue
-    public void printQueue() {
-        for (Customer customer : customerQueue) {
-            System.out.println(customer);
-        }
-    }
-
-    //
-    public List<Customer> getAllCustomers() {
-        return new ArrayList<>(customerQueue);
+    // Get all customers in the queue
+    public Iterable<Customer> getAllCustomers() {
+        return customerQueue;
     }
 }
