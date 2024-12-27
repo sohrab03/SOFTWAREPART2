@@ -30,12 +30,14 @@ public class Worker {
         System.out.println("Processing customer: " + customer.getName());
         System.out.println("Parcel ID: " + parcel.getId() + ", Fee: £" + fee);
 
+        // Update parcel status
+        parcel.setStatus("Collected");
+
         // Log the event
         log.addEvent("Processed customer: " + customer.getName() +
                 ", Parcel ID: " + parcel.getId() + ", Fee: £" + fee);
 
-        // Remove the parcel from the map (mark as collected)
-        parcelMap.removeParcel(parcel.getId());
-        log.addEvent("Parcel " + parcel.getId() + " removed from ParcelMap.");
+        // Keep parcel in map but mark as collected
+        log.addEvent("Parcel " + parcel.getId() + " status updated to Collected.");
     }
 }
