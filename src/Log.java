@@ -9,7 +9,6 @@ public class Log {
         logBuilder = new StringBuilder();
     }
 
-    // gets the singleton instance event
     public static Log getInstance() {
         if (instance == null) {
             instance = new Log();
@@ -17,12 +16,10 @@ public class Log {
         return instance;
     }
 
-    // adds new event to the log
     public void addEvent(String event) {
         logBuilder.append(event).append("\n");
     }
 
-    // will save the log
     public void saveLogToFile(String fileName) {
         try (FileWriter writer = new FileWriter(fileName)) {
             writer.write(logBuilder.toString());
@@ -32,7 +29,6 @@ public class Log {
         }
     }
 
-    // will display the current log
     public void printLog() {
         System.out.println(logBuilder.toString());
     }
