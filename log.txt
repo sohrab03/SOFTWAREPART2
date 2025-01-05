@@ -1,0 +1,60 @@
+Processed customer: Andrew Robertson, Parcel ID: X919, Fee: £141.6
+Parcel X919 status updated to Collected.
+Processed customer: Ann Jones, Parcel ID: X064, Fee: £70.8
+Parcel X064 status updated to Collected.
+Processed customer: Blair Foster, Parcel ID: X682, Fee: £97.2
+Parcel X682 status updated to Collected.
+Processed customer: Bob Dawson, Parcel ID: X780, Fee: £60.2
+Parcel X780 status updated to Collected.
+Processed customer: Chris Smith, Parcel ID: X782, Fee: £84.6
+Parcel X782 status updated to Collected.
+Processed customer: Dave Jackson, Parcel ID: X316, Fee: £11.0
+Parcel X316 status updated to Collected.
+Processed customer: David Hunter, Parcel ID: X278, Fee: £0.6000000000000001
+Parcel X278 status updated to Collected.
+Processed customer: Donald Murray, Parcel ID: X720, Fee: £12.4
+Parcel X720 status updated to Collected.
+Processed customer: Fiona Thoms, Parcel ID: X475, Fee: £44.6
+Parcel X475 status updated to Collected.
+Processed customer: Gillian Hamilton, Parcel ID: X386, Fee: £145.2
+Parcel X386 status updated to Collected.
+Processed customer: Harry Johnston, Parcel ID: X857, Fee: £82.2
+Parcel X857 status updated to Collected.
+Processed customer: Helen Webster, Parcel ID: X309, Fee: £220.4
+Parcel X309 status updated to Collected.
+Processed customer: Jack Houston, Parcel ID: X733, Fee: £203.7
+Parcel X733 status updated to Collected.
+Processed customer: Jo Hill, Parcel ID: X285, Fee: £15.8
+Parcel X285 status updated to Collected.
+Processed customer: Joe Woods, Parcel ID: X213, Fee: £76.6
+Parcel X213 status updated to Collected.
+Processed customer: John Brown, Parcel ID: X009, Fee: £293.7
+Parcel X009 status updated to Collected.
+Processed customer: Judy Hilman, Parcel ID: X904, Fee: £270.2
+Parcel X904 status updated to Collected.
+Processed customer: Keith Burns, Parcel ID: X552, Fee: £337.0
+Parcel X552 status updated to Collected.
+Processed customer: Lily Watson, Parcel ID: X121, Fee: £19.4
+Parcel X121 status updated to Collected.
+Processed customer: Lucy Grey, Parcel ID: X025, Fee: £172.2
+Parcel X025 status updated to Collected.
+Processed customer: Mary Brown, Parcel ID: X198, Fee: £10.8
+Parcel X198 status updated to Collected.
+Processed customer: Pamela Field, Parcel ID: X521, Fee: £74.8
+Parcel X521 status updated to Collected.
+Processed customer: Peter White, Parcel ID: X036, Fee: £334.8
+Parcel X036 status updated to Collected.
+Processed customer: Robert Murray, Parcel ID: X606, Fee: £63.6
+Parcel X606 status updated to Collected.
+Processed customer: Susan Turner, Parcel ID: X214, Fee: £9.1
+Parcel X214 status updated to Collected.
+Processed customer: Thomas Young, Parcel ID: X507, Fee: £468.6
+Parcel X507 status updated to Collected.
+Processed customer: Tim Smith, Parcel ID: X020, Fee: £168.2
+Parcel X020 status updated to Collected.
+Processed customer: Tony Lawson, Parcel ID: X086, Fee: £56.3
+Parcel X086 status updated to Collected.
+Processed customer: Ursula Milton, Parcel ID: X746, Fee: £158.3
+Parcel X746 status updated to Collected.
+Processed customer: Viola Nicholson, Parcel ID: X540, Fee: £60.4
+Parcel X540 status updated to Collected.
